@@ -1,22 +1,25 @@
-# nuxt_website
+# Nuxt JS tutorial, in italiano
 
-> Nuxt.js project
+> Progetto di esempio per articolo in italiano sull'utilizzo pratico di Nuxt.js
 
-## Build Setup
+## Comandi essenziali
 
 ``` bash
-# install dependencies
-$ npm install # Or yarn install
+# Installare le dipendenze
+$ npm install # oppure yarn install
 
-# serve with hot reload at localhost:3000
+# Avvia il server locale con "hot reload" su localhost:3000
 $ npm run dev
 
-# build for production and launch server
+# Compila gli assets per l'ambiente di produzione
 $ npm run build
+
+# Avvia il server locale servendo i files prodotti dal precedente comando
 $ npm start
 
-# generate static project
+# genera il progetto statico nella directory dist/
 $ npm run generate
 ```
 
-For detailed explanation on how things work, checkout the [Nuxt.js docs](https://github.com/nuxt/nuxt.js).
+L'articolo su Medium lo trovate alla url:
+[Nuxt.js docs](https://github.com/nuxt/nuxt.js).
