@@ -9,8 +9,7 @@
         Esempio di progetto Web costruito con Nuxt.js
       </h2>
       <div class="links">
-        <a href="https://nuxtjs.org/" target="_blank" class="button--green">Documentation</a>
-        <a href="https://github.com/nuxt/nuxt.js" target="_blank" class="button--grey">GitHub</a>
+        <nuxt-link to="/prodotti"  class="button--green">Prodotti</nuxt-link>
       </div>
     </div>
   </section>
@@ -26,7 +25,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 .container
 {
   min-height: 100vh;
