@@ -1,47 +1,47 @@
 {
-  "prodotto-1": {
-    "slug": "prodotto-1",
+  "ananas": {
+    "slug": "ananas",
     "id": 1,
-    "name": "Prodotto 1",
-    "imageUrl": "http://via.placeholder.com/1024x768/ff00ff/000000?text=Prodotto+1",
-    "thumbnailUrl": "http://via.placeholder.com/150/ff00ff/000000?text=Prodotto+1",
-    "description": "Questo prodotto è fantastico",
-    "price": "150,00"
+    "name": "Ananas",
+    "imageUrl": "https://unsplash.it/1000/1000/?image=824",
+    "thumbnailUrl": "https://unsplash.it/128/128/?image=824",
+    "description": "L'Ananas, o ananasso, è un genere di piante appartenente alla famiglia delle Bromeliaceae. È conosciuto soprattutto per la specie coltivata Ananas comosus. La parola Ananas deriva dal nome del frutto nella lingua degli indios Guaraní.",
+    "price": "1,50"
   },
-  "prodotto-2": {
-    "slug": "prodotto-2",
+  "keyboard": {
+    "slug": "keyboard",
     "id": 2,
-    "name": "Prodotto 2",
-    "imageUrl": "http://via.placeholder.com/1024x768/ff0000/000000?text=Prodotto+2",
-    "thumbnailUrl": "http://via.placeholder.com/150/ff0000/000000?text=Prodotto+2",
-    "description": "Questo prodotto è economico",
-    "price": "10,00"
+    "name": "Apple Magic Keyboard",
+    "imageUrl": "https://unsplash.it/1000/1000/?image=668",
+    "thumbnailUrl": "https://unsplash.it/128/128/?image=668",
+    "description": "La Magic Keyboard ha un nuovo design, una batteria ricaricabile integrata e tasti ancora più funzionali. Il profilo è più sottile, e abbiamo migliorato il meccanismo a forbice per aumentare la stabilità dei tasti e ottenere un movimento più fluido: in questo modo la scrittura diventa ancora più comoda e precisa. Si abbina automaticamente al tuo Mac, perciò puoi metterti subito al lavoro. E la batteria dura tantissimo: potrai scrivere per almeno un mese prima di doverla ricaricare.",
+    "price": "119,00"
   },
-  "prodotto-3": {
-    "slug": "prodotto-3",
+  "statua-liberta": {
+    "slug": "statua-liberta",
     "id": 3,
-    "name": "Prodotto 3",
-    "imageUrl": "http://via.placeholder.com/1024x768/ffffff/000000?text=Prodotto+3",
-    "thumbnailUrl": "http://via.placeholder.com/150/ffffff/000000?text=Prodotto+3",
-    "description": "Questo prodotto è molto molto caro",
-    "price": "1.550,00"
+    "name": "Statua della Libertà",
+    "imageUrl": "https://unsplash.it/1000/1000/?image=818",
+    "thumbnailUrl": "https://unsplash.it/128/128/?image=818",
+    "description": "La Statua della Libertà (Statue of Liberty), inaugurata nel 1886, è un monumento simbolo di New York e degli interi Stati Uniti d'America, uno dei monumenti più importanti e conosciuti al mondo. Situata all'entrata del porto sul fiume Hudson al centro della baia di Manhattan, sulla rocciosa Liberty Island. Il nome dell'opera è La Libertà che illumina il mondo (Liberty Enlightening the World in inglese, La Liberté éclairant le monde in francese).",
+    "price": "1.550.000.000.000,00"
   },
-  "prodotto-4": {
-    "slug": "prodotto-4",
+  "volkswagen-t2": {
+    "slug": "volkswagen-t2",
     "id": 4,
-    "name": "Prodotto 4",
-    "imageUrl": "http://via.placeholder.com/1024x768/aaaaaa/000000?text=Prodotto+4",
-    "thumbnailUrl": "http://via.placeholder.com/150/aaaaaa/000000?text=Prodotto+4",
-    "description": "Questo prodotto è molto venduto",
-    "price": "75,00"
+    "name": "Volkswagen T2",
+    "imageUrl": "https://unsplash.it/1000/1000/?image=655",
+    "thumbnailUrl": "https://unsplash.it/128/128/?image=655",
+    "description": "Il Transporter è un autoveicolo commerciale leggero per il trasporto di merci o persone prodotto dalla Volkswagen, in varie serie, a partire dal 1949. Con il nome Transporter, in realtà, s'identifica un gruppo particolarmente eterogeneo di veicoli. Si può, tuttavia, operare una distinzione fondamentale fra le prime tre serie, T1 o Split, T2 o Bay e T25 (in Italia meglio noto come T3 ), di derivazione Maggiolino, con trazione posteriore e motore a sbalzo sul retrotreno e le generazioni successive (T4, T5 e T6) con trazione anteriore e motore anteriore.",
+    "price": "50.000,00"
   },
-  "prodotto-5": {
-    "slug": "prodotto-5",
+  "ruota-panoramica": {
+    "slug": "ruota-panoramica",
     "id": 5,
-    "name": "Prodotto 5",
-    "imageUrl": "http://via.placeholder.com/1024x768/0000ff/000000?text=Prodotto+5",
-    "thumbnailUrl": "http://via.placeholder.com/150/0000ff/000000?text=Prodotto+5",
-    "description": "Questo prodotto è il più acquistato dai clienti",
-    "price": "49,99"
+    "name": "Ruota Panoramica",
+    "imageUrl": "https://unsplash.it/1000/1000/?image=639",
+    "thumbnailUrl": "https://unsplash.it/128/128/?image=639",
+    "description": "Grandissima ruota panoramica, ideale per il tuo giardino",
+    "price": "499.999,99"
   }
 }
