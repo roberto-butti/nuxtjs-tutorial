@@ -24,9 +24,6 @@
 import products from '~/static/products-list.json'
 
 export default {
-  fetch () {
-    return { titolo: 'ciao' }
-  },
   asyncData (context) {
     console.log(context.params.slug)
     console.log(products[context.params.slug])
