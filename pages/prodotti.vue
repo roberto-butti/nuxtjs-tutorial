@@ -2,7 +2,7 @@
   <section class="container">
     <div>
       <h1 class="title">
-        Elenco prodotti
+        Elenco prodotti ({{ howmany }} prodotti)
       </h1>
       <div class="products">
         <ul>
@@ -23,11 +23,18 @@
 import products from '~/static/products-list.json'
 
 export default {
-  data () {
-    return { products }
+  asyncData (context) {
+    var howmany = Object.keys(products).length
+    return {
+      products: products,
+      howmany: howmany,
+      headtitle: 'Elenco prodotti'
+    }
   },
-  head: {
-    title: 'Elenco di prodotti'
+  head () {
+    return {
+      title: this.headtitle + '(' + this.howmany + ' products)'
+    }
   }
 }
 </script>
