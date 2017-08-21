@@ -1,22 +1,54 @@
 <template>
-  <section class="container">
-    <div>
-      <h1 class="title">
-        {{ product.name }}
-      </h1>
-      <h2 class="description">
-        {{ product.description}}
-      </h2>
-      <div class="price">{{ product.price }} €</div>
-      <img width="400" :src="product.imageUrl">
-      <div class="links">
+  <div class="section">
+    <div class="container">
+      <div class="columns">
+        <div class="column is-6">
+          <div class="image is-2by2">
+            <img  :src="product.imageUrl">
+          </div>
+        </div>
+        <div class="column is-5 is-offset-1">
+          <div class="title is-2">{{ product.name }}</div>
+          <p class="title is-3 has-text-muted">€ {{ product.price }}</p>
+          <hr>
+          <br>
+          <p class="">
+            <i class="fa fa-star title is-5" style="color:#ed6c63"></i>
+            <i class="fa fa-star title is-5" style="color:#ed6c63"></i>
+            <i class="fa fa-star title is-5" style="color:#ed6c63"></i>
+            <i class="fa fa-star title is-5"></i>
+            <i class="fa fa-star title is-5"></i>
+            &nbsp; &nbsp;
+            <strong>41 recensioni</strong>
+            &nbsp; &nbsp;
+          </p>
+          <br>
+          <p>{{ product.description }}
+          </p>
+          <br>
+          <br>
+          <p class="">
+            <a href="#">
+              <i class="fa fa-minus cart-icon"></i>
+            </a>
+            &nbsp;
+            <input type="text" name="" class="input has-text-centered" value="1" style="width:40px;">
+            &nbsp;
+            <a href="#">
+              <i class="fa fa-plus cart-icon"></i>
+            </a>
+            &nbsp; &nbsp; &nbsp;
+            <a class="button is-primary">Add to cart</a>
+          </p>
+          <br>
+        </div>
+      </div>
+    </div>
+          <div class="links">
         <nuxt-link to="/prodotti"  class="button--green">Torna a prodotti</nuxt-link>
         <nuxt-link to="/"  class="button--green">Torna alla Home Page</nuxt-link>
       </div>
-    </div>
-  </section>
-
-    
+  </div>
 </template>
 
 
@@ -42,47 +74,30 @@ export default {
 </script>
 
 <<style scoped>
-.container
-{
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-.title
-{
+body {
   font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; /* 1 */
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
 }
-.subtitle
-{
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
+.has-text-muted {
+  color: #95A5A6;
 }
-.description
-{
-  font-weight: 300;
-  font-size: 18px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
+.fa {
+  font-size:10px;
+  padding-top:3px;
+  color: #95A5A6;
 }
-.price
-{
-  font-weight: 600;
-  font-size: 32;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
+.panel-block-item {
+  display: inline-block;
+  color: #95A5A6;
+  font-weight: bold;
+  padding: 0 10px;
 }
+.cart-icon {
+  padding-top:10px;
+}
+.product-header {
+  background-color:#fafafa;
+}
+
 
 .links
 {
