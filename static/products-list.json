@@ -1,0 +1,47 @@
+{
+  "prodotto-1": {
+    "slug": "prodotto-1",
+    "id": 1,
+    "name": "Prodotto 1",
+    "imageUrl": "http://via.placeholder.com/1024x768/ff00ff/000000?text=Prodotto+1",
+    "thumbnailUrl": "http://via.placeholder.com/150/ff00ff/000000?text=Prodotto+1",
+    "description": "Questo prodotto è fantastico",
+    "price": "150,00"
+  },
+  "prodotto-2": {
+    "slug": "prodotto-2",
+    "id": 2,
+    "name": "Prodotto 2",
+    "imageUrl": "http://via.placeholder.com/1024x768/ff0000/000000?text=Prodotto+2",
+    "thumbnailUrl": "http://via.placeholder.com/150/ff0000/000000?text=Prodotto+2",
+    "description": "Questo prodotto è economico",
+    "price": "10,00"
+  },
+  "prodotto-3": {
+    "slug": "prodotto-3",
+    "id": 3,
+    "name": "Prodotto 3",
+    "imageUrl": "http://via.placeholder.com/1024x768/ffffff/000000?text=Prodotto+3",
+    "thumbnailUrl": "http://via.placeholder.com/150/ffffff/000000?text=Prodotto+3",
+    "description": "Questo prodotto è molto molto caro",
+    "price": "1.550,00"
+  },
+  "prodotto-4": {
+    "slug": "prodotto-4",
+    "id": 4,
+    "name": "Prodotto 4",
+    "imageUrl": "http://via.placeholder.com/1024x768/aaaaaa/000000?text=Prodotto+4",
+    "thumbnailUrl": "http://via.placeholder.com/150/aaaaaa/000000?text=Prodotto+4",
+    "description": "Questo prodotto è molto venduto",
+    "price": "75,00"
+  },
+  "prodotto-5": {
+    "slug": "prodotto-5",
+    "id": 5,
+    "name": "Prodotto 5",
+    "imageUrl": "http://via.placeholder.com/1024x768/0000ff/000000?text=Prodotto+5",
+    "thumbnailUrl": "http://via.placeholder.com/150/0000ff/000000?text=Prodotto+5",
+    "description": "Questo prodotto è il più acquistato dai clienti",
+    "price": "49,99"
+  }
+}
