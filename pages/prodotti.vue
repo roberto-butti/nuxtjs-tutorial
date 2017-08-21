@@ -7,7 +7,13 @@
       <div class="products">
         <ul>
           <li v-for="product in products">
-            <nuxt-link :to="{ name: 'prodotto-slug', params: { slug: product.slug } }">{{ product.name }}</nuxt-link>
+            
+            <nuxt-link :to="{ name: 'prodotto-slug', params: { slug: product.slug } }">
+              <img width="64" :src="product.thumbnailUrl"/>
+              <br />
+              {{ product.name }}
+            </nuxt-link>
+            <hr />
           </li>
         </ul>
       </div>
@@ -52,12 +58,18 @@ export default {
   font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   display: block;
   font-weight: 300;
-  font-size: 100px;
+  font-size: 32px;
   color: #35495e;
   letter-spacing: 1px;
 }
 
 .links {
   padding-top: 15px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 </style>

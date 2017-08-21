@@ -4,7 +4,7 @@
       <h1 class="title">
         {{ product.name }}
       </h1>
-      <h2 class="subtitle">
+      <h2 class="description">
         {{ product.description}}
       </h2>
       <div class="price">{{ product.price }} €</div>
@@ -67,9 +67,17 @@ export default {
   word-spacing: 5px;
   padding-bottom: 15px;
 }
-.price
+.description
 {
   font-weight: 300;
+  font-size: 18px;
+  color: #526488;
+  word-spacing: 5px;
+  padding-bottom: 15px;
+}
+.price
+{
+  font-weight: 600;
   font-size: 32;
   color: #526488;
   word-spacing: 5px;
